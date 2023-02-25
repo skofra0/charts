@@ -21,14 +21,14 @@
 	<parent>
 		<groupId>com.vaadin</groupId>
 		<artifactId>vaadin-charts-parent</artifactId>
-		<version>4.3-SNAPSHOT</version>
+		<version>4.3.2</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>vaadin-charts-compatibility</artifactId>
 	<packaging>jar</packaging>
-	<name>Vaadin Charts Addon</name>
+	<name>Vaadin Charts Addon - Compatibility</name>
 	<inceptionYear>2012</inceptionYear>
 
 	<build>
@@ -48,7 +48,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>license-maven-plugin</artifactId>
-				<version>1.8</version>
+				<version>1.20</version>
 				<configuration>
 					<licenseName>cval3</licenseName>
 					<licenseResolver>file://${basedir}/src/license</licenseResolver>
@@ -61,7 +61,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.3.1</version>
+				<version>3.3.0</version>
 				<configuration>
 					<archive>
 						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
@@ -121,7 +121,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
-				<version>2.1.2</version>
+				<version>3.2.1</version>
 				<executions>
 					<execution>
 						<phase>package</phase>

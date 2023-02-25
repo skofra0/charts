@@ -195,7 +195,7 @@ public class Chart extends AbstractComponent {
 
     private final class ChartServerRpcImplementation implements ChartServerRpc {
 
-        private Stack<Series> drilldownStack = new Stack<Series>();
+        private Stack<Series> drilldownStack = new Stack<>();
 
         @Override
         public void onChartClick(MouseEventDetails details) {
