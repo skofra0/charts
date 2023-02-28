@@ -43,7 +43,7 @@
     <url>http://vaadin.com/charts</url>
 
     <scm>
-        <connection>scm:git:https://github.com/vaadin/charts.git</connection>
+        <connection>scm:git@github.com:skofra0/charts.git</connection>
         <developerConnection>scm:git:https://github.com/vaadin/charts.git</developerConnection>
     </scm>
 
@@ -57,7 +57,7 @@
     <distributionManagement>
 		<repository>
 			<id>DeemMaven</id>
-			<url>http://51.120.242.160:8081/repository/maven-releases</url>
+			<url>https://maven.deem.no:8443/repository/maven-releases</url>
 		</repository>
     </distributionManagement>
 
